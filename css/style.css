@@ -205,8 +205,23 @@ body {
 	outline: none;
 }
 
+.cabecalhoPrincipal-titulo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cabecalhoPrincipal-nav {
+	display: flex;
+}
+
 .rodapePrincipal-contatoForm-legend {
 	margin-bottom: 10px;
+}
+
+.cabecalhoPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 @media(min-width: 769px) {
